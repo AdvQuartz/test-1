@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub.md",
+                "file": "Мышление.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub.md",
+                "file": "Мышление.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub.md",
+                "file": "Мышление.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub.md"
+                "file": "Мышление.md"
               }
             }
           }
@@ -282,17 +282,17 @@
   "active": "7f379edcce6fa51c",
   "lastOpenFiles": [
     "с  7 30.md",
+    "Мышление.md",
     "Арифметические языки.md",
-    "Типы данных.md",
-    "Литералы.md",
-    "c sharp.md",
-    "GitHub.md",
-    "Языки программирования.md",
     "Лекция 2.md",
     "Лекция 3.md",
     "Лекция 4 Гарвард.md",
-    "Мышление.md",
     "Лекция1.md",
+    "Литералы.md",
+    "Типы данных.md",
+    "Языки программирования.md",
+    "c sharp.md",
+    "GitHub.md",
     "Welcome.md"
   ]
 }

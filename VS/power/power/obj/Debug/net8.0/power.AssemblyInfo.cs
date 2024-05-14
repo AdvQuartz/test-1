@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("power")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae2160c757902c2576cf9500a27e4e2ec5b33ca3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+174d8a4901f304ff801a0ac6948bde8052344b8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("power")]
 [assembly: System.Reflection.AssemblyTitleAttribute("power")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
