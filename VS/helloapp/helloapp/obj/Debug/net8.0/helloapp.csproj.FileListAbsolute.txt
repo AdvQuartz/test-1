@@ -1,0 +1,15 @@
+C:\ESD\newfolder13\VS\helloapp\helloapp\bin\Debug\net8.0\helloapp.exe
+C:\ESD\newfolder13\VS\helloapp\helloapp\bin\Debug\net8.0\helloapp.deps.json
+C:\ESD\newfolder13\VS\helloapp\helloapp\bin\Debug\net8.0\helloapp.runtimeconfig.json
+C:\ESD\newfolder13\VS\helloapp\helloapp\bin\Debug\net8.0\helloapp.dll
+C:\ESD\newfolder13\VS\helloapp\helloapp\bin\Debug\net8.0\helloapp.pdb
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.AssemblyInfoInputs.cache
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.AssemblyInfo.cs
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.csproj.CoreCompileInputs.cache
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.sourcelink.json
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.dll
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\refint\helloapp.dll
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.pdb
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\helloapp.genruntimeconfig.cache
+C:\ESD\newfolder13\VS\helloapp\helloapp\obj\Debug\net8.0\ref\helloapp.dll

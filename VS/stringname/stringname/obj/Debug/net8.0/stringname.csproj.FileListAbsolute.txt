@@ -1,0 +1,15 @@
+C:\ESD\newfolder13\VS\stringname\stringname\bin\Debug\net8.0\stringname.exe
+C:\ESD\newfolder13\VS\stringname\stringname\bin\Debug\net8.0\stringname.deps.json
+C:\ESD\newfolder13\VS\stringname\stringname\bin\Debug\net8.0\stringname.runtimeconfig.json
+C:\ESD\newfolder13\VS\stringname\stringname\bin\Debug\net8.0\stringname.dll
+C:\ESD\newfolder13\VS\stringname\stringname\bin\Debug\net8.0\stringname.pdb
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.AssemblyInfoInputs.cache
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.AssemblyInfo.cs
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.csproj.CoreCompileInputs.cache
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.sourcelink.json
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.dll
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\refint\stringname.dll
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.pdb
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\stringname.genruntimeconfig.cache
+C:\ESD\newfolder13\VS\stringname\stringname\obj\Debug\net8.0\ref\stringname.dll

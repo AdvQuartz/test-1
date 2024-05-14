@@ -1,0 +1,15 @@
+C:\ESD\newfolder13\VS\power\power\bin\Debug\net8.0\power.exe
+C:\ESD\newfolder13\VS\power\power\bin\Debug\net8.0\power.deps.json
+C:\ESD\newfolder13\VS\power\power\bin\Debug\net8.0\power.runtimeconfig.json
+C:\ESD\newfolder13\VS\power\power\bin\Debug\net8.0\power.dll
+C:\ESD\newfolder13\VS\power\power\bin\Debug\net8.0\power.pdb
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.AssemblyInfoInputs.cache
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.AssemblyInfo.cs
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.csproj.CoreCompileInputs.cache
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.sourcelink.json
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.dll
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\refint\power.dll
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.pdb
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\power.genruntimeconfig.cache
+C:\ESD\newfolder13\VS\power\power\obj\Debug\net8.0\ref\power.dll

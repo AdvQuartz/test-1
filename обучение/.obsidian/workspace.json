@@ -73,14 +73,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Лекция 4 Гарвард.md",
+                "file": "GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99ab45ab0ef897d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "805b3ddd299e3377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c sharp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2e28fc0ae0c1534",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Литералы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bda3eb7e22e6f40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Типы данных.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3623f2f7970cfc89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Арифметические языки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f379edcce6fa51c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -146,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Лекция 4 Гарвард.md",
+                "file": "GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Лекция 4 Гарвард.md",
+                "file": "GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Лекция 4 Гарвард.md"
+                "file": "GitHub.md"
               }
             }
           }
@@ -207,12 +279,18 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c45b634d6a5c3824",
+  "active": "7f379edcce6fa51c",
   "lastOpenFiles": [
+    "с  7 30.md",
+    "Арифметические языки.md",
+    "Типы данных.md",
+    "Литералы.md",
+    "c sharp.md",
+    "GitHub.md",
+    "Языки программирования.md",
+    "Лекция 2.md",
     "Лекция 3.md",
     "Лекция 4 Гарвард.md",
-    "Лекция 2.md",
-    "GitHub.md",
     "Мышление.md",
     "Лекция1.md",
     "Welcome.md"
