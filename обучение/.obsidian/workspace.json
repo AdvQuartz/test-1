@@ -150,9 +150,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "17ecff83769d19bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Код для игры.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Мышление.md",
+                "file": "Код для игры.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Мышление.md",
+                "file": "Код для игры.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Мышление.md"
+                "file": "Код для игры.md"
               }
             }
           }
@@ -279,10 +291,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "7f379edcce6fa51c",
+  "active": "17ecff83769d19bf",
   "lastOpenFiles": [
-    "с  7 30.md",
     "Мышление.md",
+    "Код для игры.md",
+    "с  7 30.md",
     "Арифметические языки.md",
     "Лекция 2.md",
     "Лекция 3.md",
