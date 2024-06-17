@@ -1,0 +1,15 @@
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\FindEmoji.csproj.AssemblyReference.cache
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\MainWindow.g.cs
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\App.g.cs
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\mATCH GAME_MarkupCompile.cache
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\mATCH GAME_MarkupCompile.lref
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\mATCH GAME.exe
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\mATCH GAME.pdb
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\bin\Debug\mATCH GAME.exe.config
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\bin\Debug\mATCH GAME.exe
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\bin\Debug\mATCH GAME.pdb
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\MainWindow.baml
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\mATCH GAME.g.resources
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\mATCH_GAME.Properties.Resources.resources
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\FindEmoji.csproj.GenerateResource.cache
+C:\ESD\newfolder13\VS\mATCH GAME\mATCH GAME\obj\Debug\FindEmoji.csproj.CoreCompileInputs.cache
