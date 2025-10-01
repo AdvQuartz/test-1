@@ -3,11 +3,14 @@
   "WorkspaceRootPath": "C:\\ESD\\newfolder13\\VS\\mATCH GAME\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6638DF46-87D4-407A-95B1-F0C297679687}|mATCH GAME\\FindEmoji.csproj|C:\\ESD\\newfolder13\\VS\\mATCH GAME\\match game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ESD\\newfolder13\\VS\\Math\\Math\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638DF46-87D4-407A-95B1-F0C297679687}|mATCH GAME\\FindEmoji.csproj|c:\\esd\\newfolder13\\vs\\match game\\match game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6638DF46-87D4-407A-95B1-F0C297679687}|mATCH GAME\\FindEmoji.csproj|solutionrelative:match game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6638DF46-87D4-407A-95B1-F0C297679687}|mATCH GAME\\FindEmoji.csproj|c:\\esd\\newfolder13\\vs\\match game\\match game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6638DF46-87D4-407A-95B1-F0C297679687}|mATCH GAME\\FindEmoji.csproj|C:\\ESD\\newfolder13\\VS\\mATCH GAME\\match game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6638DF46-87D4-407A-95B1-F0C297679687}|mATCH GAME\\FindEmoji.csproj|solutionrelative:match game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -18,11 +21,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ESD\\newfolder13\\VS\\Math\\Math\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Math\\Math\\Program.cs",
+              "ToolTip": "C:\\ESD\\newfolder13\\VS\\Math\\Math\\Program.cs",
+              "RelativeToolTip": "..\\Math\\Math\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:27:36.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\ESD\\newfolder13\\VS\\mATCH GAME\\mATCH GAME\\MainWindow.xaml",
               "RelativeDocumentMoniker": "mATCH GAME\\MainWindow.xaml",
@@ -34,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\ESD\\newfolder13\\VS\\mATCH GAME\\mATCH GAME\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "mATCH GAME\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\ESD\\newfolder13\\VS\\mATCH GAME\\mATCH GAME\\MainWindow.xaml.cs",
-              "RelativeToolTip": "mATCH GAME\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAYAAAA",
+              "ToolTip": "C:\\ESD\\newfolder13\\VS\\mATCH GAME\\mATCH GAME\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "mATCH GAME\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T17:33:43.668Z",
               "EditorCaption": ""

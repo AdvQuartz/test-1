@@ -8,175 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f022e79f6709d808",
+            "id": "13d2fc662b6b5cbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Лекция 2.md",
+                "file": "команда класс код.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "команда класс код"
             }
           },
           {
-            "id": "0f245e259dc36e81",
+            "id": "5a465ab2236de30f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Лекция1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35d41a010af818f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a53780fb6be1b22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e67b5109a0652404",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Лекция 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c45b634d6a5c3824",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99ab45ab0ef897d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "805b3ddd299e3377",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c sharp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2e28fc0ae0c1534",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Литералы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bda3eb7e22e6f40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Типы данных.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3623f2f7970cfc89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Арифметические языки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f379edcce6fa51c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Мышление.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17ecff83769d19bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Код для игры.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71db9bc0ded4997e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "размышления.md",
-                "mode": "source",
-                "source": false
-              }
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -211,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -219,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -242,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "размышления.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -259,10 +124,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "размышления.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -273,7 +139,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -281,9 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "размышления.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Структура"
             }
           }
         ]
@@ -303,22 +171,25 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "71db9bc0ded4997e",
+  "active": "5a465ab2236de30f",
   "lastOpenFiles": [
+    "Pasted image 20240701161442.png",
     "Код для игры.md",
-    "размышления.md",
-    "Мышление.md",
-    "с  7 30.md",
     "Арифметические языки.md",
-    "Лекция 2.md",
+    "команда класс код.md",
     "Лекция 3.md",
     "Лекция 4 Гарвард.md",
-    "Лекция1.md",
     "Литералы.md",
+    "Мышление.md",
+    "Общая информация.md",
     "Типы данных.md",
     "Языки программирования.md",
     "c sharp.md",
     "GitHub.md",
+    "Лекция 2.md",
+    "размышления.md",
+    "с  7 30.md",
+    "Лекция1.md",
     "Welcome.md"
   ]
 }

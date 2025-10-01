@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Умный холодильник</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .fridge-container {
+      position: relative;
+      max-width: 450px;
+    }
+
+    .fridge-container img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      display: block;
+    }
+
+    /* зоны внутри холодильника */
+    .shelf {
+      position: absolute;
+      left: 5%;
+      width: 90%;
+      height: 12%;
+      background: rgba(0, 150, 255, 0);
+      border-radius: 5px;
+      transition: background 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .shelf:hover {
+      background: rgba(0, 150, 255, 0.15);
+      box-shadow: 0 0 15px rgba(0, 150, 255, 0.6);
+    }
+
+    /* расположение полок */
+    .shelf1 { top: 10%; }
+    .shelf2 { top: 25%; }
+    .shelf3 { top: 40%; }
+    .shelf4 { top: 55%; }
+    .shelf5 { top: 70%; }
+    .shelf6 { top: 85%; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 18px;
+      background: #333;
+      border: 1px solid #555;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      background: #555;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    /* модальные окна */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .modal-content {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 500px;
+      max-height: 80vh;
+      overflow-y: auto;
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+      animation: fadeIn 0.3s;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: scale(0.9);}
+      to {opacity: 1; transform: scale(1);}
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .close {
+      cursor: pointer;
+      font-size: 20px;
+      color: #aaa;
+    }
+    .close:hover { color: #fff; }
+
+    .product-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .product-list li {
+      background: #333;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .delete-btn {
+      background: red;
+      border: none;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    input {
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #555;
+      background: #111;
+      color: #fff;
+    }
+
+    .add-btn {
+      background: green;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>🧊 Умный холодильник</header>
+
+  <div class="fridge-container">
+    <img src="fridge.png" alt="Холодильник">
+    <!-- подсвечиваемые полки -->
+    <div class="shelf shelf1" onclick="openModal('listModal')"></div>
+    <div class="shelf shelf2" onclick="openModal('listModal')"></div>
+    <div class="shelf shelf3" onclick="openModal('listModal')"></div>
+    <div class="shelf shelf4" onclick="openModal('listModal')"></div>
+    <div class="shelf shelf5" onclick="openModal('listModal')"></div>
+    <div class="shelf shelf6" onclick="openModal('listModal')"></div>
+  </div>
+
+  <div class="controls">
+    <button class="btn" onclick="openModal('listModal')">📋 Список продуктов</button>
+    <button class="btn" onclick="openModal('addModal')">➕ Добавить продукт</button>
+    <button class="btn" onclick="openModal('cameraModal')">📷 Камера</button>
+    <button class="btn" onclick="openModal('recipesModal')">🍳 Рецепты</button>
+    <button class="btn" onclick="openModal('notifyModal')">🔔 Уведомления</button>
+  </div>
+
+  <footer>© 2025 Умный холодильник</footer>
+
+  <!-- модальные окна -->
+  <div class="modal" id="listModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Список продуктов</h2>
+        <span class="close" onclick="closeModal('listModal')">&times;</span>
+      </div>
+      <ul class="product-list" id="productList"></ul>
+    </div>
+  </div>
+
+  <div class="modal" id="addModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Добавить продукт</h2>
+        <span class="close" onclick="closeModal('addModal')">&times;</span>
+      </div>
+      <input type="text" id="productName" placeholder="Название продукта">
+      <input type="date" id="expiryDate" placeholder="Срок годности">
+      <button class="add-btn" onclick="addProduct()">Добавить</button>
+    </div>
+  </div>
+
+  <div class="modal" id="cameraModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Камера</h2>
+        <span class="close" onclick="closeModal('cameraModal')">&times;</span>
+      </div>
+      <p>Здесь может быть функция сканирования штрих-кодов или фото продуктов. Пока заглушка.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="recipesModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Рецепты</h2>
+        <span class="close" onclick="closeModal('recipesModal')">&times;</span>
+      </div>
+      <p>Идеи для готовки:</p>
+      <ul>
+        <li>Картошка с грибами</li>
+        <li>Овощное рагу</li>
+        <li>Салат с йогуртом</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="notifyModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Уведомления</h2>
+        <span class="close" onclick="closeModal('notifyModal')">&times;</span>
+      </div>
+      <p id="notifications">Пока уведомлений нет.</p>
+    </div>
+  </div>
+
+  <script>
+    let products = JSON.parse(localStorage.getItem("products")) || [];
+
+    function openModal(id) {
+      document.getElementById(id).style.display = "flex";
+      if (id === "listModal") renderProducts();
+      if (id === "notifyModal") checkNotifications();
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).style.display = "none";
+    }
+
+    function renderProducts() {
+      const list = document.getElementById("productList");
+      list.innerHTML = "";
+      products.forEach((p, index) => {
+        const li = document.createElement("li");
+        li.innerHTML = `${p.name} (годен до ${p.expiry}) 
+          <button class="delete-btn" onclick="deleteProduct(${index})">Удалить</button>`;
+        list.appendChild(li);
+      });
+    }
+
+    function addProduct() {
+      const name = document.getElementById("productName").value;
+      const expiry = document.getElementById("expiryDate").value;
+      if (!name || !expiry) return alert("Заполни все поля!");
+      products.push({name, expiry});
+      localStorage.setItem("products", JSON.stringify(products));
+      document.getElementById("productName").value = "";
+      document.getElementById("expiryDate").value = "";
+      closeModal("addModal");
+      renderProducts();
+    }
+
+    function deleteProduct(index) {
+      products.splice(index, 1);
+      localStorage.setItem("products", JSON.stringify(products));
+      renderProducts();
+    }
+
+    function checkNotifications() {
+      const now = new Date();
+      const soon = products.filter(p => {
+        const exp = new Date(p.expiry);
+        const diff = (exp - now) / (1000 * 60 * 60 * 24);
+        return diff <= 2;
+      });
+      const notify = document.getElementById("notifications");
+      if (soon.length > 0) {
+        notify.innerHTML = "Скоро испортится:<br>" + soon.map(p => p.name).join(", ");
+      } else {
+        notify.innerHTML = "Пока всё ок 👍";
+      }
+    }
+  </script>
+</body>
+</html>
